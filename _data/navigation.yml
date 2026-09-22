@@ -8,11 +8,17 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
+  - title: "Home"
+    url: /
+
   - title: "Publications"
     url: /publications/
+
+  - title: "Presentations"
+    url: /Presentations/
 
   - title: "Industry Experience"
     url: /industry-experience/
 
-  - title: "Awards & Service"
-    url: /awards-service/
+  - title: "Misc."
+    url: /misc/
