@@ -2,32 +2,83 @@
 layout: archive
 title: "Publications"
 permalink: /publications/
-author_profile: true
+author_profile: false
 ---
-
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
 
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<div class="publications-page" data-publications-page>
+  <nav class="publication-filters" aria-label="Filter publications">
+    <button class="publication-filter is-active" type="button" data-publication-filter="all" aria-pressed="true">All</button>
+    <button class="publication-filter" type="button" data-publication-filter="journal-articles" aria-pressed="false">Journal articles</button>
+    <button class="publication-filter" type="button" data-publication-filter="works-in-progress" aria-pressed="false">Works in progress</button>
+    <button class="publication-filter" type="button" data-publication-filter="patents" aria-pressed="false">Patents</button>
+  </nav>
+
+  <p class="sr-only" data-publication-status aria-live="polite">Showing all publications.</p>
+
+  <div class="publication-sections">
+    <section class="publication-section" id="journal-articles" data-publication-section="journal-articles">
+      <h2>Journal articles</h2>
+      <div class="publication-list">
+        {% for publication in site.data.publications.journal_articles %}
+          <article class="publication-entry">
+            <div class="publication-number" aria-label="Publication number {{ publication.number }}">{{ publication.number }}.</div>
+            <div class="publication-content">
+              <h3 class="publication-title">{{ publication.title }}</h3>
+              <p class="publication-authors">{% for author in publication.authors %}{% if author.self %}<span class="publication-self">{{ author.name }}</span>{% else %}{{ author.name }}{% endif %}{% unless forloop.last %}{% if forloop.rindex == 2 %} &amp; {% else %}, {% endif %}{% endunless %}{% endfor %}</p>
+              <p class="publication-meta">
+                <span class="publication-badge">Journal</span>
+                <span><strong>{{ publication.journal }}</strong> &middot; {{ publication.volume }}{% if publication.issue %}({{ publication.issue }}){% endif %}, {{ publication.pages }} ({{ publication.year }})</span>
+              </p>
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section class="publication-section" id="works-in-progress" data-publication-section="works-in-progress">
+      <h2>Works in progress</h2>
+      <div class="publication-list">
+        {% for publication in site.data.publications.works_in_progress %}
+          <article class="publication-entry">
+            <div class="publication-number" aria-label="Work in progress number {{ publication.number }}">{{ publication.number }}.</div>
+            <div class="publication-content">
+              <h3 class="publication-title">{{ publication.title }}</h3>
+              <p class="publication-authors">{% for author in publication.authors %}{% if author.self %}<span class="publication-self">{{ author.name }}</span>{% else %}{{ author.name }}{% endif %}{% unless forloop.last %}{% if forloop.rindex == 2 %} &amp; {% else %}, {% endif %}{% endunless %}{% endfor %}</p>
+              <p class="publication-meta">
+                <span class="publication-badge publication-badge--progress">In progress</span>
+                <span>{{ publication.status }}</span>
+              </p>
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section class="publication-section" id="patents" data-publication-section="patents">
+      <h2>Patents</h2>
+      <div class="publication-list publication-list--patents">
+        {% for patent in site.data.publications.patents %}
+          <article class="publication-entry publication-entry--patent">
+            <div class="publication-number" aria-label="Patent number {{ patent.number }}">{{ patent.number }}.</div>
+            <div class="publication-content">
+              <h3 class="publication-title">{{ patent.title }}</h3>
+              <p class="publication-authors"><span class="publication-self">{{ patent.inventor }}</span></p>
+              <ul class="patent-filings" aria-label="Filings for {{ patent.title }}">
+                {% for filing in patent.filings %}
+                  <li>
+                    <span class="patent-status patent-status--{{ filing.status | downcase }}">{{ filing.status }}</span>
+                    <span><strong>{{ filing.country }} ({{ filing.country_code }})</strong> &middot; {{ filing.number }} &middot; {{ filing.date }}</span>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+  </div>
+</div>
+
+<script src="{{ base_path }}/assets/js/publications.js" defer></script>

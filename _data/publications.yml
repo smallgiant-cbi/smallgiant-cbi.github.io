@@ -1,0 +1,182 @@
+journal_articles:
+  - number: "4"
+    title: "Quantum-inspired Genetic Algorithm with Chromosome Clustering for 0-1 Knapsack Problems"
+    authors:
+      - { name: "Choi, B.", self: true }
+      - { name: "Jung, J." }
+      - { name: "Eun, J." }
+      - { name: "Choi, I." }
+    year: "2026"
+    journal: "Applied Soft Computing"
+    volume: "198"
+    pages: "115231"
+
+  - number: "3"
+    title: "Unmanned Aerial Vehicle and Autonomous Delivery Robot Station for Last-mile Delivery Service"
+    authors:
+      - { name: "Choi, B.", self: true }
+      - { name: "Kang, J." }
+      - { name: "Eun, J." }
+      - { name: "Cheong, T." }
+    year: "2025"
+    journal: "International Journal of Systems Science: Operations & Logistics"
+    volume: "12"
+    issue: "1"
+    pages: "2544714"
+
+  - number: "2"
+    title: "Cooperation and Competition in an Oligopolistic and Mature Industry: a Case Study on the Cationic Reagent Industry Based on an Optimization Model"
+    authors:
+      - { name: "Kang, J." }
+      - { name: "Choi, B.", self: true }
+      - { name: "Lim, C." }
+      - { name: "Eun, J." }
+    year: "2025"
+    journal: "Operations Research Perspectives"
+    volume: "14"
+    pages: "100325"
+
+  - number: "1"
+    title: "Unmanned Aerial Vehicle Last-Mile Delivery Considering Backhauls"
+    authors:
+      - { name: "Jeon, A." }
+      - { name: "Kang, J." }
+      - { name: "Choi, B.", self: true }
+      - { name: "Kim, N." }
+      - { name: "Eun, J." }
+      - { name: "Cheong, T." }
+    year: "2021"
+    journal: "IEEE Access"
+    volume: "9"
+    pages: "85017–85033"
+
+works_in_progress:
+  - number: "2"
+    title: "Heterogeneous Sidekicks Traveling Salesman Problem: Optimization of Three-echelon Vehicles for Last Mile Delivery Services"
+    authors:
+      - { name: "Kang, J." }
+      - { name: "Choi, B.", self: true }
+      - { name: "Eun, J." }
+    status: "Submitted to IEEE ITS."
+
+  - number: "1"
+    title: "Electric Vehicle Traveling Salesman Problem With Multi-visit Unmanned Aerial Vehicles and Partial Piecewise Linear Charging"
+    authors:
+      - { name: "Choi, B.", self: true }
+      - { name: "Eun, J." }
+    status: "Submitted to TRE."
+
+patents:
+  - number: "16"
+    inventor: "Choi, B."
+    title: "System and Method for Controlling Docking of Unmanned Vehicle"
+    filings:
+      - { status: "Pending", country: "Republic of Korea", country_code: "KR", number: "10-2022-0067005", date: "May. 2022" }
+      - { status: "Registered", country: "United States", country_code: "US", number: "12210352", date: "Jan. 2025" }
+
+  - number: "15"
+    inventor: "Choi, B."
+    title: "Method of Charging Aerial Vehicle"
+    filings:
+      - { status: "Pending", country: "Republic of Korea", country_code: "KR", number: "10-2022-0027034", date: "Mar. 2022" }
+
+  - number: "14"
+    inventor: "Choi, B."
+    title: "Data Management System and Operation Method Thereof"
+    filings:
+      - { status: "Pending", country: "Republic of Korea", country_code: "KR", number: "10-2021-0171028", date: "Dec. 2021" }
+      - { status: "Registered", country: "United States", country_code: "US", number: "12288429", date: "Apr. 2025" }
+      - { status: "Pending", country: "China", country_code: "CN", number: "202211017669.2", date: "Aug. 2022" }
+
+  - number: "13"
+    inventor: "Choi, B."
+    title: "Hazard Guidance Method of Driving Route and Server Providing the Same"
+    filings:
+      - { status: "Pending", country: "Republic of Korea", country_code: "KR", number: "10-2021-0111211", date: "Aug. 2021" }
+      - { status: "Registered", country: "United States", country_code: "US", number: "12181295", date: "Dec. 2024" }
+
+  - number: "12"
+    inventor: "Choi, B."
+    title: "Information System for Mobility"
+    filings:
+      - { status: "Pending", country: "Republic of Korea", country_code: "KR", number: "10-2021-0088696", date: "Jul. 2021" }
+      - { status: "Registered", country: "United States", country_code: "US", number: "11906969", date: "Feb. 2024" }
+
+  - number: "11"
+    inventor: "Choi, B."
+    title: "Vehicular Quality Matter Management System and Method for Processing Data Thereof"
+    filings:
+      - { status: "Pending", country: "Republic of Korea", country_code: "KR", number: "10-2021-0088007", date: "Jul. 2021" }
+      - { status: "Registered", country: "United States", country_code: "US", number: "12087316", date: "Sep. 2024" }
+
+  - number: "10"
+    inventor: "Choi, B."
+    title: "System and Method for Controlling of Vehicle"
+    filings:
+      - { status: "Pending", country: "Republic of Korea", country_code: "KR", number: "10-2021-0078830", date: "Jun. 2021" }
+      - { status: "Registered", country: "United States", country_code: "US", number: "12391262", date: "Aug. 2025" }
+
+  - number: "09"
+    inventor: "Choi, B."
+    title: "Quality Verification System Using Arm Robot and Method Thereof"
+    filings:
+      - { status: "Pending", country: "Republic of Korea", country_code: "KR", number: "10-2021-0074849", date: "Jun. 2021" }
+      - { status: "Registered", country: "United States", country_code: "US", number: "12039715", date: "Jul. 2024" }
+
+  - number: "08"
+    inventor: "Choi, B."
+    title: "Method for Generating Failed Code Label of Control Unit for Vehicle"
+    filings:
+      - { status: "Pending", country: "Republic of Korea", country_code: "KR", number: "10-2020-0131006", date: "Oct. 2020" }
+
+  - number: "07"
+    inventor: "Choi, B."
+    title: "System and Method for Providing Service of Vehicle"
+    filings:
+      - { status: "Registered", country: "Republic of Korea", country_code: "KR", number: "10-2934893", date: "Mar. 2026" }
+
+  - number: "06"
+    inventor: "Choi, B."
+    title: "System for Managing Update of Electronic Control Unit in Vehicle and Method Thereof"
+    filings:
+      - { status: "Pending", country: "Republic of Korea", country_code: "KR", number: "10-2021-0046144", date: "Apr. 2021" }
+      - { status: "Pending", country: "United States", country_code: "US", number: "17/398,576", date: "Aug. 2021" }
+      - { status: "Pending", country: "China", country_code: "CN", number: "202111002201.1", date: "Aug. 2021" }
+      - { status: "Pending", country: "Germany", country_code: "DE", number: "102021209058.3", date: "Aug. 2021" }
+
+  - number: "05"
+    inventor: "Choi, B."
+    title: "System for Managing Quality of a Vehicle and Method Thereof"
+    filings:
+      - { status: "Registered", country: "Republic of Korea", country_code: "KR", number: "10-2882438", date: "Nov. 2025" }
+      - { status: "Registered", country: "United States", country_code: "US", number: "11768485", date: "Sep. 2023" }
+      - { status: "Pending", country: "China", country_code: "CN", number: "202111148007.4", date: "Sep. 2021" }
+      - { status: "Pending", country: "Germany", country_code: "DE", number: "102021124389.0", date: "Sep. 2021" }
+
+  - number: "04"
+    inventor: "Choi, B."
+    title: "Method for Determining Whether Connectors Are Fastened in Automobile Manufacturing Line"
+    filings:
+      - { status: "Registered", country: "Republic of Korea", country_code: "KR", number: "10-2908687", date: "Jan. 2026" }
+
+  - number: "03"
+    inventor: "Choi, B."
+    title: "Method and Apparatus for Determining Virtual Fault Code of Vehicle Controller"
+    filings:
+      - { status: "Pending", country: "Republic of Korea", country_code: "KR", number: "10-2020-0171548", date: "Dec. 2020" }
+      - { status: "Pending", country: "United States", country_code: "US", number: "17/507,962", date: "Oct. 2021" }
+      - { status: "Pending", country: "China", country_code: "CN", number: "202111288093.9", date: "Nov. 2021" }
+
+  - number: "02"
+    inventor: "Choi, B."
+    title: "Vehicle Having the Same and Server to Communicate with Vehicle"
+    filings:
+      - { status: "Registered", country: "Republic of Korea", country_code: "KR", number: "10-2938829", date: "Mar. 2026" }
+      - { status: "Pending", country: "United States", country_code: "US", number: "17/493,215", date: "Oct. 2021" }
+      - { status: "Pending", country: "China", country_code: "CN", number: "202111294519.1", date: "Nov. 2021" }
+
+  - number: "01"
+    inventor: "Choi, B."
+    title: "Method for Generating Failed Code Label of Control Unit for Vehicle"
+    filings:
+      - { status: "Pending", country: "Republic of Korea", country_code: "KR", number: "10-2021-0080012", date: "Jun. 2021" }
