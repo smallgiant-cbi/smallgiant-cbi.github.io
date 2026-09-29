@@ -28,6 +28,15 @@
 .home-page .home-list--compact .home-dot { margin-top: 0.48rem; }
 .home-page .home-list--compact .publication-details { margin-bottom: 0; }
 
+.home-education-entry {
+  padding: 0.25rem 0 0.8rem;
+}
+
+.home-education-dates {
+  color: var(--publication-meta-color);
+  font-weight: 400;
+}
+
 .home-one-line-list {
   overflow-x: auto;
 }
