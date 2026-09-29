@@ -14,7 +14,7 @@ author_profile: true
           <div class="publication-number" aria-label="Publication number {{ publication.number | plus: 0 }}">{{ publication.number | plus: 0 }}.</div>
           <div class="publication-content">
             <h3 class="publication-title">{{ publication.title }}</h3>
-            <p class="publication-authors">{% for author in publication.authors %}{% if author.self %}<strong>{{ author.name }}</strong>{% else %}{{ author.name }}{% endif %}{% unless forloop.last %}{% if forloop.rindex == 2 %} and {% else %}, {% endif %}{% endunless %}{% endfor %}</p>
+            <p class="publication-authors">{% for author in publication.authors %}{% if author.self %}<strong class="publication-self">{{ author.name }}</strong>{% else %}{{ author.name }}{% endif %}{% unless forloop.last %}{% if forloop.rindex == 2 %} and {% else %}, {% endif %}{% endunless %}{% endfor %}</p>
             <p class="publication-details"><em>{{ publication.journal }}</em>, Vol. {{ publication.volume }}{% if publication.issue %}, No. {{ publication.issue }}{% endif %}, pp. {{ publication.pages }}, {{ publication.year }}.{% if publication.url %} <a href="{{ publication.url }}">[link]</a>{% endif %}</p>
           </div>
         </article>
@@ -30,7 +30,7 @@ author_profile: true
           <div class="publication-number" aria-label="Work in progress number {{ publication.number | plus: 0 }}">{{ publication.number | plus: 0 }}.</div>
           <div class="publication-content">
             <h3 class="publication-title">{{ publication.title }}</h3>
-            <p class="publication-authors">{% for author in publication.authors %}{% if author.self %}<strong>{{ author.name }}</strong>{% else %}{{ author.name }}{% endif %}{% unless forloop.last %}{% if forloop.rindex == 2 %} and {% else %}, {% endif %}{% endunless %}{% endfor %}</p>
+            <p class="publication-authors">{% for author in publication.authors %}{% if author.self %}<strong class="publication-self">{{ author.name }}</strong>{% else %}{{ author.name }}{% endif %}{% unless forloop.last %}{% if forloop.rindex == 2 %} and {% else %}, {% endif %}{% endunless %}{% endfor %}</p>
             <p class="publication-details">{{ publication.status }}{% if publication.url %} <a href="{{ publication.url }}">[link]</a>{% endif %}</p>
           </div>
         </article>
@@ -46,10 +46,10 @@ author_profile: true
           <div class="publication-number" aria-label="Patent number {{ patent.number | plus: 0 }}">{{ patent.number | plus: 0 }}.</div>
           <div class="publication-content">
             <h3 class="publication-title">{{ patent.title }}</h3>
-            <p class="publication-authors"><strong>{{ patent.inventor }}</strong></p>
+            <p class="publication-authors"><strong class="publication-self">{{ patent.inventor }}</strong></p>
             <ul class="patent-filings" aria-label="Filings for {{ patent.title }}">
               {% for filing in patent.filings %}
-                <li><span class="patent-status">{{ filing.status }}</span><span>{{ filing.country }} ({{ filing.country_code }})</span><span>{{ filing.number }}</span><span>{{ filing.date }}</span></li>
+                <li>{{ filing.country }} ({{ filing.country_code }}), {{ filing.status }}, {{ filing.number }}, {{ filing.date | split: " " | last }}</li>
               {% endfor %}
             </ul>
           </div>
