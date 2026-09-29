@@ -1,0 +1,29 @@
+/* Home uses the typography and spacing of the publication lists. */
+.home-page .home-entry {
+  display: grid;
+  grid-template-columns: 2.25rem minmax(0, 1fr);
+  gap: 0.65rem;
+  padding: 0.25rem 0 0.8rem;
+}
+
+.home-page .home-dot {
+  width: 0.38rem;
+  height: 0.38rem;
+  margin: 0.56rem 0 0 auto;
+  border-radius: 50%;
+  background: var(--publication-meta-color);
+}
+
+.home-page .home-sublist {
+  margin: 0.4rem 0 0;
+  padding-left: 1.2rem;
+  color: var(--publication-meta-color);
+  font-size: 0.95rem;
+  line-height: 1.5;
+
+  li { margin-bottom: 0.25rem; }
+}
+
+.home-page .home-list--compact .home-entry { padding-bottom: 0.35rem; }
+.home-page .home-list--compact .home-dot { margin-top: 0.48rem; }
+.home-page .home-list--compact .publication-details { margin-bottom: 0; }
