@@ -1,0 +1,25 @@
+---
+layout: archive
+title: "Presentations"
+title_class: publications-title
+permalink: /Presentations/
+author_profile: true
+---
+
+<div class="publications-page">
+  <section class="publication-section" aria-labelledby="conference">
+    <h2 id="conference">Conference</h2>
+    <div class="publication-list" role="list">
+      {% for presentation in site.data.presentations.conference %}
+        <article class="publication-entry" role="listitem">
+          <div class="publication-number" aria-label="Presentation number {{ presentation.number }}">{{ presentation.number }}.</div>
+          <div class="publication-content">
+            <h3 class="publication-title">{{ presentation.title }}</h3>
+            <p class="publication-authors">{% for author in presentation.authors %}{% if author.self %}<strong><u class="publication-self">{{ author.name }}</u></strong>{% else %}{{ author.name }}{% endif %}{% unless forloop.last %}{% if forloop.rindex == 2 %} &amp; {% else %}, {% endif %}{% endunless %}{% endfor %}</p>
+            <p class="publication-details"><em>{{ presentation.conference }}</em>, {{ presentation.location }}, {{ presentation.date }}.</p>
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+</div>

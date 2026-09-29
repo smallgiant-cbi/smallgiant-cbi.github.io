@@ -1,0 +1,140 @@
+conference:
+  - number: 20
+    title: "Harnessing Quantum Phenomena for Enhanced Evolutionary Search"
+    authors: [{ name: "Choi, B.", self: true }, { name: "Jung, J." }, { name: "Eun, J." }, { name: "Choi, I." }]
+    conference: "Spring Conference of Korean Institute of Industrial Engineers"
+    location: "Gyeongju, South Korea"
+    date: "Jun. 2026"
+
+  - number: 19
+    title: "Semiconductor Foundry Capacity Allocation and Product-Mix Strategy"
+    authors: [{ name: "Kim, S." }, { name: "Choi, B.", self: true }, { name: "Kim, J." }, { name: "Eun, J." }]
+    conference: "Spring Conference of Korean Institute of Industrial Engineers"
+    location: "Gyeongju, South Korea"
+    date: "Jun. 2026"
+
+  - number: 18
+    title: "Electric Vehicle Routing Problem with En-route Recharging and Drones"
+    authors: [{ name: "Choi, B.", self: true }, { name: "Eun, J." }]
+    conference: "Fall Conference of The Society of Logistics Science and Technology"
+    location: "Daegu, South Korea"
+    date: "Nov. 2025"
+
+  - number: 17
+    title: "Collaborative Delivery Service Planning for an Electric Vehicle and UAVs with Battery Recharging Stations"
+    authors: [{ name: "Choi, B.", self: true }, { name: "Eun, J." }]
+    conference: "Spring Conference of Korean Institute of Industrial Engineers"
+    location: "Jeju, South Korea"
+    date: "Jun. 2025"
+
+  - number: 16
+    title: "A Quantum-inspired Genetic Algorithm to Enhance Search Ability"
+    authors: [{ name: "Choi, B.", self: true }, { name: "Jung, J." }, { name: "Lee, T." }, { name: "Eun, J." }, { name: "Choi, I." }]
+    conference: "Fall Conference of Korean Operations Research and Management Science Society"
+    location: "Goyang, South Korea"
+    date: "Nov. 2024"
+
+  - number: 15
+    title: "New Algorithm with Improved Search Ability Leveraging Quantum computing Principles and Genetic Algorithm Framework"
+    authors: [{ name: "Choi, B.", self: true }, { name: "Jung, J." }, { name: "Lee, T." }, { name: "Eun, J." }, { name: "Choi, I." }]
+    conference: "Summer Conference of Korean Society for Innovation Management and Economics"
+    location: "Jeju, South Korea"
+    date: "Jul. 2024"
+
+  - number: 14
+    title: "Sustainable and Effective Delivery Model Integrated with Heterogeneous EV-based Sidekicks and Battery Infrastructure Facilities"
+    authors: [{ name: "Choi, B.", self: true }, { name: "Eun, J." }]
+    conference: "Spring Conference of Korea Productivity Association"
+    location: "Seoul, South Korea"
+    date: "May. 2024"
+
+  - number: 13
+    title: "A Supply Chain Optimization Model for Mature Products of Oligopoly Markets"
+    authors: [{ name: "Kang, J." }, { name: "Choi, B.", self: true }, { name: "Lim, C." }, { name: "Eun, J." }]
+    conference: "Spring Conference of Korean Institute of Industrial Engineers"
+    location: "Yeosu, South Korea"
+    date: "May. 2024"
+
+  - number: 12
+    title: "Truck-Heterogeneous Sidekicks Cooperative Traveling Salesman Problem with Battery Swapping and Parcel Handover between Delivery Robots and Unmanned Aerial Vehicles"
+    authors: [{ name: "Kang, J." }, { name: "Choi, B.", self: true }, { name: "Eun, J." }]
+    conference: "INFORMS Annual Meeting"
+    location: "Phoenix, AZ, USA"
+    date: "Oct. 2023"
+
+  - number: 11
+    title: "Embedding Quantum Computing Principles in a Metaheuristic to Enhance the Search Ability"
+    authors: [{ name: "Choi, B.", self: true }, { name: "Jung, J." }, { name: "Lee, T." }, { name: "Eun, J." }, { name: "Choi, I." }]
+    conference: "Spring Conference of Korean Institute of Industrial Engineers"
+    location: "Jeju, South Korea"
+    date: "Jun. 2023"
+
+  - number: 10
+    title: "Computational Experiences in Embedding Quantum Operators in a Metaheuristic Algorithm"
+    authors: [{ name: "Jung, J." }, { name: "Choi, B.", self: true }, { name: "Eun, J." }, { name: "Choi, I." }]
+    conference: "Spring Conference of Korean Institute of Industrial Engineers"
+    location: "Jeju, South Korea"
+    date: "Jun. 2023"
+
+  - number: 9
+    title: "Cooperative Traveling Salesman Problem with Heterogeneous Sidekicks: Heuristic Approach"
+    authors: [{ name: "Kang, J." }, { name: "Choi, B.", self: true }, { name: "Eun, J." }]
+    conference: "Spring Conference of Korean Institute of Industrial Engineers"
+    location: "Jeju, South Korea"
+    date: "Jun. 2023"
+
+  - number: 8
+    title: "Incorporating the Principle Concepts of Quantum Computing into a Heuristic Framework: A Quantum-inspired Genetic Algorithm"
+    authors: [{ name: "Choi, B.", self: true }, { name: "Jung, J." }, { name: "Lee, T." }, { name: "Eun, J." }, { name: "Choi, I." }]
+    conference: "Korea's Allied Economic Associations Annual Meeting"
+    location: "Seoul, South Korea"
+    date: "Feb. 2023"
+
+  - number: 7
+    title: "A Quantum-inspired Evolutionary Algorithm for Knapsack Problems"
+    authors: [{ name: "Choi, B.", self: true }, { name: "Lee, T." }, { name: "Jung, J." }, { name: "Eun, J." }, { name: "Choi, I." }]
+    conference: "Fall Conference of Korean Institute of Industrial Engineers"
+    location: "Incheon, South Korea"
+    date: "Nov. 2022"
+
+  - number: 6
+    title: "Last-Mile Delivery with Heterogeneous Sidekicks: Modeling and Implications"
+    authors: [{ name: "Kang, J." }, { name: "Choi, B.", self: true }, { name: "Eun, J." }]
+    conference: "Spring Conference of Korean Institute of Industrial Engineers"
+    location: "Jeju, South Korea"
+    date: "Jun. 2022"
+
+  - number: 5
+    title: "Last-Mile Delivery Station with Heterogeneous Vehicles: Modeling, Solution Approaches, and Implications"
+    authors: [{ name: "Choi, B.", self: true }, { name: "Kang, J." }, { name: "Eun, J." }, { name: "Cheong, T." }]
+    conference: "Spring Conference of Korean Institute of Industrial Engineers"
+    location: "Jeju, South Korea"
+    date: "Jun. 2022"
+
+  - number: 4
+    title: "The Adjacent Distance-based Assignment Heuristic for Cooperative Traveling Salesman Problems"
+    authors: [{ name: "Kang, J." }, { name: "Kim, N." }, { name: "Choi, B.", self: true }, { name: "Jeon, A." }, { name: "Eun, J." }]
+    conference: "Summer Conference of Korean Society for Innovation Management and Economics"
+    location: "Jeju, South Korea"
+    date: "Jul. 2021"
+
+  - number: 3
+    title: "The Smart Logistics Station That Simultaneously Operates Heterogeneous Unmanned Delivery Vehicles"
+    authors: [{ name: "Choi, B.", self: true }, { name: "Kang, J." }, { name: "Eun, J." }]
+    conference: "Summer Conference of Korean Society for Innovation Management and Economics"
+    location: "Jeju, South Korea"
+    date: "Jul. 2021"
+
+  - number: 2
+    title: "Drone-Truck Hybrid Delivery Model Considering Returns"
+    authors: [{ name: "Kang, J." }, { name: "Jeon, A." }, { name: "Choi, B.", self: true }, { name: "Kim, N." }, { name: "Eun, J." }, { name: "Cheong, T." }]
+    conference: "Spring Conference of Korean Institute of Industrial Engineers"
+    location: "Jeju, South Korea"
+    date: "Jun. 2021"
+
+  - number: 1
+    title: "Drone and Delivery Robot Station Model for Last-Mile Delivery"
+    authors: [{ name: "Choi, B.", self: true }, { name: "Kang, J." }, { name: "Eun, J." }]
+    conference: "Spring Conference of Korean Institute of Industrial Engineers"
+    location: "Jeju, South Korea"
+    date: "Jun. 2021"
