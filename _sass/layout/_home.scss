@@ -27,3 +27,32 @@
 .home-page .home-list--compact .home-entry { padding-bottom: 0.35rem; }
 .home-page .home-list--compact .home-dot { margin-top: 0.48rem; }
 .home-page .home-list--compact .publication-details { margin-bottom: 0; }
+
+.home-awards {
+  overflow-x: auto;
+}
+
+.home-awards .publication-entry {
+  grid-template-columns: 2.25rem max-content;
+  width: max-content;
+  padding-bottom: 0.4rem;
+  white-space: nowrap;
+}
+
+.home-awards .publication-number,
+.home-awards .home-award-line {
+  color: #000;
+}
+
+.home-awards .home-award-line {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+[data-theme="dark"] .home-awards-section {
+  padding: 1rem;
+  background: #fff;
+}
+
+[data-theme="dark"] .home-awards-section h2 { color: #000; }
