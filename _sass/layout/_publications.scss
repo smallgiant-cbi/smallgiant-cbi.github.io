@@ -2,6 +2,14 @@
    PUBLICATIONS
    ========================================================================== */
 
+.publications-title {
+  color: #000;
+}
+
+[data-theme="dark"] .publications-title {
+  color: #fff;
+}
+
 .publications-page {
   --publication-heading-color: #111;
   --publication-meta-color: #4b4f55;
