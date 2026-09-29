@@ -3,6 +3,8 @@
    ========================================================================== */
 
 .publications-page {
+  --publication-heading-color: #111;
+  --publication-meta-color: #4b4f55;
   margin-top: 2.5rem;
 }
 
@@ -13,19 +15,82 @@
     margin: 0;
     padding-bottom: 0.7rem;
     border-bottom: 1px solid var(--global-border-color);
+    color: var(--publication-heading-color);
+    font-size: $type-size-4;
   }
 }
 
 .publication-list {
-  margin: 1.25rem 0 0;
-  padding-left: 2.75rem;
+  margin-top: 1.1rem;
+}
+
+.publication-entry {
+  display: grid;
+  grid-template-columns: 2.25rem minmax(0, 1fr);
+  gap: 0.65rem;
+  padding: 0.55rem 0 0.8rem;
+}
+
+.publication-number {
+  padding-top: 0.05rem;
+  color: var(--publication-meta-color);
+  font-variant-numeric: tabular-nums;
+  line-height: 1.45;
+  text-align: right;
+}
+
+.publication-content {
+  min-width: 0;
+}
+
+.publication-title {
+  margin: 0 0 0.3rem;
+  color: var(--publication-heading-color);
+  font-family: $sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+.publication-authors,
+.publication-details {
+  margin: 0 0 0.22rem;
+  color: var(--publication-meta-color);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.publication-details {
+  margin-bottom: 0;
+}
+
+.patent-filings {
+  margin: 0;
+  padding: 0;
+  color: var(--publication-meta-color);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  list-style: none;
 
   li {
-    padding-left: 0.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 0.45rem;
+    margin: 0 0 0.18rem;
   }
 
-  p {
-    margin: 0 0 0.85rem;
-    line-height: 1.55;
+  span:not(:last-child)::after {
+    margin-left: 0.45rem;
+    color: var(--global-border-color);
+    content: "\00b7";
   }
+}
+
+.patent-status {
+  font-weight: 700;
+}
+
+[data-theme="dark"] .publications-page {
+  --publication-heading-color: #f5f5f5;
+  --publication-meta-color: #c5c8cc;
 }
