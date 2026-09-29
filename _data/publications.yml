@@ -57,14 +57,14 @@ works_in_progress:
       - { name: "Kang, J." }
       - { name: "Choi, B.", self: true }
       - { name: "Eun, J." }
-    status: "Submitted."
+    status: "Submitted"
 
   - number: "1"
     title: "Electric Vehicle Traveling Salesman Problem With Multi-visit Unmanned Aerial Vehicles and Partial Piecewise Linear Charging"
     authors:
       - { name: "Choi, B.", self: true }
       - { name: "Eun, J." }
-    status: "Submitted."
+    status: "Submitted"
 
 patents:
   - number: "16"
