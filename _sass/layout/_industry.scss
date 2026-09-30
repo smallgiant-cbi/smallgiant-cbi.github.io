@@ -27,8 +27,14 @@
   }
 }
 
+.industry-project + .industry-project {
+  margin-top: 1.4rem;
+}
+
 .industry-workstream {
   margin: 0 0 0.9rem 1.25rem;
+
+  &:last-child { margin-bottom: 0; }
 
   h4 {
     position: relative;
