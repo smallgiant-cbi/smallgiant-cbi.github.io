@@ -14,23 +14,15 @@
   background: var(--publication-meta-color);
 }
 
-.home-page .home-sublist {
-  margin: 0.4rem 0 0;
-  padding-left: 1.2rem;
-  color: var(--publication-meta-color);
-  font-size: 0.95rem;
-  line-height: 1.5;
+.home-page .home-research-title {
+  margin-bottom: 0;
 
-  li { margin-bottom: 0.25rem; }
+  span { font-weight: 400; }
 }
 
 .home-page .home-list--compact .home-entry { padding-bottom: 0.35rem; }
 .home-page .home-list--compact .home-dot { margin-top: 0.48rem; }
 .home-page .home-list--compact .publication-details { margin-bottom: 0; }
-
-.home-education-entry {
-  padding: 0.25rem 0 0.8rem;
-}
 
 .home-education-dates {
   color: var(--publication-meta-color);
