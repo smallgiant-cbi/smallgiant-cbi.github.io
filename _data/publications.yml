@@ -52,19 +52,19 @@ journal_articles:
 
 works_in_progress:
   - number: "6"
-    title: "Electric dial-a-ride problem with drones: Synergies in shared mobility for passengers and parcels"
-    authors:
-      - { name: "Choi, B.", self: true }
-      - { name: "Eun, J." }
-    status: "Manuscript in preparation"
-
-  - number: "5"
     title: "A Mechanism Study on Feasible and Infeasible Population Dynamics in Quantum-Inspired Evolutionary Search"
     authors:
       - { name: "Jung, J." }
       - { name: "Choi, B.", self: true }
       - { name: "Eun, J." }
       - { name: "Choi, I." }
+    status: "Manuscript in preparation"
+
+  - number: "5"
+    title: "Electric dial-a-ride problem with drones: Synergies in shared mobility for passengers and parcels"
+    authors:
+      - { name: "Choi, B.", self: true }
+      - { name: "Eun, J." }
     status: "Manuscript in preparation"
 
   - number: "4"
@@ -82,7 +82,7 @@ works_in_progress:
       - { name: "Kim, S." }
       - { name: "Choi, B.", self: true }
       - { name: "Eun, J." }
-    status: "Preparing for submission"
+    status: "Submitted"
 
   - number: "2"
     title: "Electric Vehicle Traveling Salesman Problem With Multi-visit Unmanned Aerial Vehicles and Partial Piecewise Linear Charging"
