@@ -65,7 +65,7 @@ works_in_progress:
     authors:
       - { name: "Choi, B.", self: true }
       - { name: "Eun, J." }
-    status: "Manuscript in preparation"
+    status: "Preparing for submission"
 
   - number: "4"
     title: "Quantum-inspired Large Neighborhood Search for the Vehicle Routing Problem with Time Windows"
